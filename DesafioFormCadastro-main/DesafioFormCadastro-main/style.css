@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #89CFF0;
+  background: linear-gradient(90deg, rgba(137, 207, 240, 1) 0%, rgba(39, 217, 128, 1) 67%);
+  color: white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+  padding:20px;
+}
+
+.container {
+  background: linear-gradient(135deg, #b2dafa, #a5eecb);
+  /* pesquisar como colocar dois valores no padding abaixo */
+  padding: 25px 35px;
+  border-radius:10px ;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.5); /* Degradê no formulário */
+  max-width:500px ;
+  width: 100%;
+}
+
+header {
+  text-align:center ;
+  margin-bottom:20px ;
+}
+
+header h1 {
+  margin: 0;
+  color: #22c55e;
+}
+
+header p {
+  color: #080808;
+  font-size: 14px;
+}
+
+.form-cadastro {
+  display: flex;
+  color:#080808;
+  /* presquisar o que é o flex direction */
+  flex-direction:column ;
+  gap: 12px;
+}
+
+label {
+  font-weight: bold;
+  font-size:14px ;
+  margin-bottom:4px ;
+}
+
+input, textarea {
+  padding:10px ;
+  border-radius: 5px;
+  border: 1px solid #1f2937;
+  background: linear-gradient(135deg, #a4cff2, #90e0c1);
+  color: black;
+  font-size: 14px;
+}
+
+input:focus, textarea:focus {
+  outline: 2px solid #22c55e;
+  border-color: #22c55e;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.checkbox {
+  display:flex ;
+  align-items:center ;
+  gap:8px ;
+}
+
+button {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #22c55e;
+  color: #312f2f;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #16a34a;
+}
